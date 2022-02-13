@@ -33,5 +33,5 @@
 
 #### The database is configurated to a docker, you can edit it on application.yml -> spring -> datasource -> url
 #### All end points can be tested on http://localhost:8080/informacoes/swagger-ui.html
-#### JPA build the database schema automatically.
+#### JPA builds the database schema automatically.
 #### Endpoints is configurated on: http://localhost:8080/informacoes/filmes / http://localhost:8080/informacoes/filmes/{id}
