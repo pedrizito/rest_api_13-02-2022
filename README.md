@@ -35,3 +35,7 @@
 #### All end points can be tested on http://localhost:8080/informacoes/swagger-ui.html
 #### JPA builds the database schema automatically.
 #### Endpoints is configurated on: http://localhost:8080/informacoes/filmes / http://localhost:8080/informacoes/filmes/{id}
+#### Docker command line: 
+    docker pull postgres
+    docker run --name db_meu-site -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres
+
